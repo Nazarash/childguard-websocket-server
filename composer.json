@@ -1,0 +1,13 @@
+{
+    "name": "childguard/websocket-server",
+    "description": "WebSocket server for ChildGuard real-time streaming",
+    "require": {
+        "php": ">=7.4",
+        "cboden/ratchet": "^0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChildGuard\\": "src/"
+        }
+    }
+}
